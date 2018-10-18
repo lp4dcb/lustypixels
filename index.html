@@ -1,1 +1,163 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#689AA3">
+
+    <title>Lusty Pixels</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js">
+    <link href='http://fonts.googleapis.com/css?family=Asap:400,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontello/css/instagram.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+    <nav class="fixed-nav-bar">
+        <div id="menu" class="menu">
+            <a href="#">
+                <h2 id="talk">lusty pixels</h2>
+            </a>
+            <a href="#4" id="nav-toggle" class="nav-toggle">&#9776;</a>
+            <ul class="menu-items" id="nav">
+                <li class="nav-item" data-control="about">
+                    <!-- <a id="#about" href="#">about</a> -->
+                    about
+                </li>
+                <li class="nav-item" data-control="work">
+                    <!-- <a id="#work" href="#work">work</a> -->
+                    work
+                </li>
+                <li class="nav-item" data-control="contact">
+                    <!-- <a id="#contact" href="#contact">contact</a> -->
+                    contact
+                </li>
+            </ul>
+        </div><!-- end menu -->
+    </nav><!-- end header -->
+
+    <div data-section="about">
+        <div data-here />
+    </div>
+    <section class="hero">
+        <div class="container container-hero">
+            <div class="content">
+                <h1 id="logo">
+                    <a href="/"><img src="images/logo-mini.png" alt="Mary Huynh" width="7%"></a>
+                </h1>
+                <header>
+                    <h2 class="text-greeting">hi,there!
+                    </h2>
+                    <div class="textright">
+                        <strong>i'm <span>Mary</span></strong>
+                    </div>
+                </header>
+                <p>I’m a <strong> web dev</strong> with a <strong> &hearts; </strong> for making complex digital interactions <strong>simple</strong> and <strong>elegant</strong>.</p>
+            </div><!-- end hero -->
+        </div><!-- end container -->
+    </section><!-- end hero -->
+
+
+    <section id="motto">
+        <div class="container container-fixed">
+            <div class="content">
+                <h2>SIMPLY SEAMLESS<br>AND POWERFUL<br>EXPERIENCES</h2>
+                <img src="images/logo-mini.png" class="logo-mini" alt="logo">
+                <p>creating a better web and memorable experiences across all devices</p>
+            </div><!-- end motto.content -->
+        </div><!-- end container -->
+    </section> <!-- end motto -->
+
+    <section class="layer">
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <img class="left slide-left " src="images/icon-branding.png" alt="branding" width="110%" height="110%">
+                    <div class="description right-row-description  ">
+                        <!-- <h4>more than just a logo</h4> -->
+                        <h2>branding</h2>
+                        <p>I elevate your brand identity to better develop a meaningful and lasting connection with your users.</p>
+                    </div><!-- end row-description -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <img class="right slide-right" src="images/icon-usability.png" alt="usability" width="110%" height="110%">
+                    <div class="description left-row-description  ">
+                        <!-- <h4>pure beauty &amp; function</h4> -->
+                        <h2>usability</h2>
+                        <p>Usability and function are my primary focus ensuring everyone has a stellar experience.</p>
+                    </div><!-- end row-description -->
+                </div><!-- end row -->
+
+                <div class="row">
+                    <img class="left slide-left" src="images/icon-frontend.png" alt="frontend" width="110%" height="110%">
+                    <div class="description right-row-description ">
+                        <!-- <h4>best practices</h4> -->
+                        <h2>code</h2>
+                        <p>I stay current with HTML5 and CSS3 practices to design beautiful responsive websites.</p>
+                    </div><!-- end row-description -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end services -->
+
+        <section data-section="work" id="work">
+            <div data-here></div>
+            <div class="container">
+                <div class="content">
+                    <h2>SELECTED WORKS</h2>
+                    <!-- <h4>CRAFTED WITH YOUR AUDIENCE IN MIND</h4> -->
+                    <div>
+                        <img class="samples" src="images/ui-kit.jpg" alt="">
+                        <img class="samples" src="images/fish-fowl.jpg" alt="">
+                        <img class="samples" src="images/coming-soon.png" alt="">
+                    </div>
+                </div><!-- end #work>content -->
+            </div><!-- end container -->
+        </section><!-- end work -->
+
+
+        <section data-section="contact" id="contact">
+            <div data-here></div>
+            <!--        <div class="container">-->
+            <div class="content">
+                <h2>SAY HELLO.</h2>
+                <p>hello@lustypixels.com</p>
+            </div><!-- end #contact>content -->
+            <!--        </div> end container    -->
+        </section><!-- end contact -->
+
+        <!-- <div class="social">
+            <div class="container">
+                <div class="content">
+                    <ul class="icons">
+                        <li class="icon-pinterest"><a href="#" title="pin my favorites on Pinterest"></a></li>
+                        <li class="icon-github"> <a href="" title="git into my github"></a></li>
+                        <li class="icon-gplus"><a href="" title="circle me on Google+"></a></li>
+                        <li class="icon-instagram"><a href="" title="follow me on Instagram"></a></li>
+                        <li class="icon-behance"><a href="" title="check me out on Behance"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+        <!--   end social  -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><i class="fa fa-pencil fa-lg"></i> and <i class="fa fa-wrench fa-lg"></i> with <i class="fa fa-heart fa-lg"></i> Lusty Pixels. 2018</p>
+
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
